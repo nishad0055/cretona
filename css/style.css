@@ -62,6 +62,7 @@ header {
   left: 0;
   right: 0;
   padding: 33px 0;
+  z-index: 999;
 }
 header .logo a {
   font-family: Roboto;
@@ -96,6 +97,7 @@ header .logo a {
   background-color: var(--bg-deepBlue);
   height: 834px;
   width: 100%;
+  position: relative;
 }
 .left-side h2 {
   color: #fff;
@@ -117,5 +119,63 @@ header .logo a {
 }
 
 .right-image {
-  margin-top: 98px;
+  margin-top: 110px;
+  position: relative;
+  z-index: 1;
+}
+
+.shape {
+  position: absolute;
+}
+.shape-1 {
+  top: 13%;
+  right: 0%;
+  z-index: -2;
+}
+.shape-2 {
+  bottom: -4%;
+  z-index: -2;
+}
+
+/* counter CSS  */
+#counter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -45%;
+}
+.counter-main {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.05);
+  padding: 28px 0;
+}
+.counter-content {
+  position: relative;
+}
+
+.counter-main .col-xl-3:last-child .counter-content::after {
+  display: none;
+}
+
+.counter-content::after {
+  position: absolute;
+  width: 1.5px;
+  height: 62px;
+  background: #7480b0;
+  top: 0;
+  right: 0;
+
+  content: "";
+}
+
+.counter-content h2 {
+  font-size: 35px;
+  font-family: var(--fonts-poppins);
+  font-weight: 700;
+  color: var(--bg-deepBlue);
+  margin-bottom: 0;
+}
+.counter-content p {
+  margin-top: 0;
 }
