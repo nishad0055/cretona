@@ -55,6 +55,16 @@ li {
   border-radius: 5px;
 }
 
+.title {
+  color: #002854;
+  /* h2 */
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
 /* Header CSS Here */
 header {
   background: transparent;
@@ -184,6 +194,11 @@ header .logo a {
 #features {
   padding: 150px 0;
 }
+
+.features-title {
+  margin-bottom: 40px;
+}
+
 .features-box {
   border-radius: 8px;
   background: #fff;
@@ -203,6 +218,21 @@ header .logo a {
   font-family: var(--fonts-roboto);
   font-size: 16px;
   font-style: normal;
-  font-weight: 450;
+  font-weight: 300;
   line-height: 28px;
+}
+
+/* User Interface CSS */
+.interface-bg {
+  background: url(../images/user-inter-bg.png);
+  background-repeat: no-repeat;
+}
+
+.interface-right p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 30px;
+  color: var(--text-gray);
+  padding: 23px 0;
 }
