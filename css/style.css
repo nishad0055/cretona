@@ -179,3 +179,30 @@ header .logo a {
 .counter-content p {
   margin-top: 0;
 }
+
+/* Our features */
+#features {
+  padding: 150px 0;
+}
+.features-box {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.06);
+  padding: 33px 20px;
+}
+.features-content h4 {
+  color: var(--bg-deepBlue);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.features-content p {
+  color: var(--text-gray);
+  font-family: var(--fonts-roboto);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 28px;
+}
