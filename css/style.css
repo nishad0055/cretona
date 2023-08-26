@@ -236,3 +236,40 @@ header .logo a {
   color: var(--text-gray);
   padding: 23px 0;
 }
+
+/* Appify CSS */
+
+#appify {
+  background: var(--bg-deepBlue);
+  width: 100%;
+  height: auto;
+  padding: 115px 0;
+  margin-top: 75px;
+  margin-bottom: 120px;
+}
+.appify-header p {
+  color: var(--white, #fff);
+  font-family: var(--fonts-roboto);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 23px 0;
+}
+
+.list-item {
+  position: relative;
+}
+.list-item::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 51px;
+  top: 0;
+  left: -2rem;
+  background-color: #3e9bf3;
+}
+
+.curcle {
+  text-align: center;
+}
