@@ -273,3 +273,31 @@ header .logo a {
 .curcle {
   text-align: center;
 }
+
+/* chart-css */
+.chart-content {
+  margin-top: 5rem;
+}
+.chart-content p {
+  color: var(--Body, #5a7184);
+  /* P1 */
+  font-family: Circular Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 30px;
+  padding-top: 23px;
+  padding-bottom: 18px;
+}
+
+.chart-img {
+  position: relative;
+}
+
+.total-img {
+  position: absolute;
+  left: 0;
+  bottom: -9%;
+  background-color: #fff;
+  border-radius: 10px;
+}
